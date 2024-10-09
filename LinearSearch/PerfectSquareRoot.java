@@ -3,7 +3,7 @@ public class PerfectSquareRoot {
 
         int[] arr = { 10, 15, 26, 28, 25, 36, 68, 95, 63, 56 };
         int result = findPerfectSquare(arr);
-        System.out.println("Perfect Square : " + result);
+        System.out.println("Perfect Square is : " + result);
     }
 
     static int findPerfectSquare(int[] arr) {
