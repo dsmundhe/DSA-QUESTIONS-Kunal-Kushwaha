@@ -1,6 +1,7 @@
-import java.util.Arrays;
+import java.util.*;
 
-public class InsertionSort {
+public class InsertionSortusingFun {
+
     public static void main(String[] args) {
         int[] arr = { 5, 4, 3, 2, 1, 0 };
         inSort(arr);
@@ -11,14 +12,17 @@ public class InsertionSort {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = i + 1; j > 0; j--) {
                 if (arr[j] < arr[j - 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j - 1];
-                    arr[j - 1] = temp;
-                } else {
-                    break;
+                    swap(arr, j - 1, j);
                 }
             }
         }
+        return arr;
+    }
+
+    static int[] swap(int[] arr, int num1, int num2) {
+        int temp = arr[num1];
+        arr[num1] = arr[num2];
+        arr[num2] = temp;
         return arr;
     }
 }
