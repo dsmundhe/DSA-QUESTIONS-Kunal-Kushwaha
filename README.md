@@ -36,4 +36,4 @@ To run or modify the code locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/dsa-java.git
+   git clone https://github.com/dsmundhe/dsa-questions-kunal-kushwaha
