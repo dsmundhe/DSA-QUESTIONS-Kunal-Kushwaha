@@ -1,21 +1,21 @@
 import java.util.Arrays;
 
-public class Practice {
+class Practice {
     public static void main(String[] args) {
-        int[] arr = { 8, 7, 5, 6, 3, 2, 1, 4 };
-        System.out.println(Arrays.toString(mergeSort(arr)));
-
+        int[] arr = { 5, 8, 7, 9, 10, 12, 3, 4, 14 };
+        System.out.println(Arrays.toString(mergerSort(arr)));
     }
 
-    static int[] mergeSort(int[] arr) {
-        if (arr.length == 1)
+    static int[] mergerSort(int[] arr) {
+        if (arr.length == 1) {
             return arr;
-
+        }
         int mid = arr.length / 2;
 
-        int[] leftArr = mergeSort(Arrays.copyOfRange(arr, 0, mid));
-        int[] rightArr = mergeSort(Arrays.copyOfRange(arr, mid, arr.length));
+        int[] leftArr = mergerSort(Arrays.copyOfRange(arr, 0, mid));
+        int[] rightArr = mergerSort(Arrays.copyOfRange(arr, mid, arr.length));
         return merge(leftArr, rightArr);
+
     }
 
     static int[] merge(int[] leftArr, int[] rightArr) {
@@ -34,17 +34,18 @@ public class Practice {
             }
             k++;
         }
-        while (j < rightArr.length) {
-            mixArr[k] = rightArr[j];
-            k++;
-            j++;
-        }
 
         while (i < leftArr.length) {
             mixArr[k] = leftArr[i];
-            k++;
             i++;
+            k++;
         }
+        while (j < rightArr.length) {
+            mixArr[k] = rightArr[j];
+            j++;
+            k++;
+        }
+
         return mixArr;
     }
 }
