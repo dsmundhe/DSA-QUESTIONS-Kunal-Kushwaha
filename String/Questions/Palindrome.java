@@ -13,6 +13,7 @@ public class Palindrome {
         }
 
     }
+
     static boolean isPalindrome(String name) {
         int start = 0;
         int end = name.length() - 1;
