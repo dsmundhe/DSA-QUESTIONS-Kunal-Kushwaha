@@ -8,7 +8,7 @@ public class Patterns {
         // pattern2(4);
 
         // //pattern 3
-        // pattern3(4);
+        pattern3(4);
 
         // // pattern 4
         // pattern4(4);
@@ -20,7 +20,7 @@ public class Patterns {
         // pattern6(5);
 
         // pattern 7
-        pattern7(5);
+        // pattern7(5);
 
     }
 
