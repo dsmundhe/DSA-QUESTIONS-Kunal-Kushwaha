@@ -9,3 +9,15 @@
 ### Problem Description:  
 There is an `m x n` matrix initialized to all 0's.  
 A 2D array `indices` is given where each `indices[i] = [ri, ci]` represents a 0-indexed location to perform some increment operations on the matrix.  
+
+---
+
+## 3.Maximum Population year 
+**Problem Link:** [https://leetcode.com/problems/maximum-population-year/description/](https://leetcode.com/problems/maximum-population-year/description/)  
+
+### Problem Description:  
+You are given a 2D integer array `logs` where each `logs[i] = [birthi, deathi]` indicates the birth and death years of the `i-th` person.
+
+The **population** of some year `x` is the number of people alive during that year. The `i-th` person is counted in year `x`'s population if `x` is in the inclusive range `[birthi, deathi - 1]`. Note that the person is **not counted** in the year that they die.
+
+Your task is to return the **earliest year** with the maximum population. 
