@@ -1,19 +1,19 @@
 # Arrays
 ---
 
- ## 1. Cells with Odd Values in a Matrix  
+ ### 1. Cells with Odd Values in a Matrix  
 **Problem Link:** [https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/description/)  
 
-#### Problem Description:  
+##### Problem Description:  
 There is an `m x n` matrix initialized to all 0's.  
 A 2D array `indices` is given where each `indices[i] = [ri, ci]` represents a 0-indexed location to perform some increment operations on the matrix.  
 
 ---
 
-## 2.Maximum Population year 
+### 2.Maximum Population year 
 **Problem Link:** [https://leetcode.com/problems/maximum-population-year/description/](https://leetcode.com/problems/maximum-population-year/description/)  
 
-#### Problem Description:  
+##### Problem Description:  
 You are given a 2D integer array `logs` where each `logs[i] = [birthi, deathi]` indicates the birth and death years of the `i-th` person.
 
 The **population** of some year `x` is the number of people alive during that year. The `i-th` person is counted in year `x`'s population if `x` is in the inclusive range `[birthi, deathi - 1]`. Note that the person is **not counted** in the year that they die.
