@@ -1,3 +1,4 @@
+
 # Arrays
 ---
 
@@ -24,4 +25,3 @@ Your task is to return the **earliest year** with the maximum population.
 
 #### Problem Description
 You are given two \( n \times n \) binary matrices `mat` and `target`. Return `true` if it is possible to make `mat` equal to `target` by rotating `mat` in 90-degree increments (clockwise). Otherwise, return `false`.
-
