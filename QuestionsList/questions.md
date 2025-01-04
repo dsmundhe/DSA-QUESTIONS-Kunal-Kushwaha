@@ -44,3 +44,16 @@ You are given two \( n \times n \) binary matrices `mat` and `target`. Return `t
 Given an integer array nums, find the
 subarray
 with the largest sum, and return its sum.
+
+
+---
+
+### 5. Remove Duplicates
+
+**Problem Link:** [https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
+
+#### Problem Description
+
+Given an integer array nums, find the
+subarray
+with the largest sum, and return its sum.
