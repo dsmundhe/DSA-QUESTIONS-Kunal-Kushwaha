@@ -13,7 +13,7 @@ A 2D array `indices` is given where each `indices[i] = [ri, ci]` represents a 0-
 
 ---
 
-### 2.Maximum Population year
+### 2. Maximum Population year
 
 **Problem Link:** [https://leetcode.com/problems/maximum-population-year/description/](https://leetcode.com/problems/maximum-population-year/description/)
 
@@ -25,7 +25,7 @@ Your task is to return the **earliest year** with the maximum population.
 
 ---
 
-### 3.Determine whether matrix can be obtained by rotation
+### 3. Determine whether matrix can be obtained by rotation
 
 **Problem Link:** [https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/description/](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/description/)
 
@@ -35,7 +35,7 @@ You are given two \( n \times n \) binary matrices `mat` and `target`. Return `t
 
 ---
 
-### 4.Maximum Subarray
+### 4. Maximum Subarray
 
 **Problem Link:** [https://leetcode.com/problems/maximum-subarray/description/](https://leetcode.com/problems/maximum-subarray/description/)
 
