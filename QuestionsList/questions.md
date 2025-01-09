@@ -61,7 +61,7 @@ with the largest sum, and return its sum.
 
 ---
 
-### . TWO SUM
+### 6. TWO SUM
 
 **Problem Link:** [https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
