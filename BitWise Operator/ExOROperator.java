@@ -1,4 +1,4 @@
-public class ExOROperator {
+public class ExORoperator {
     public static void main(String[] args) {
         int arr[] = { 2, 2, 1, 5, 5, 1, 3, 3, 4 };
 
