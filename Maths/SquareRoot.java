@@ -6,7 +6,7 @@ public class SquareRoot {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter num : ");
         int num = in.nextInt();
-        System.out.println(squrt(num));
+        System.out.printf("%.2f" ,squrt(num));
     }
 
     static double squrt(int num) {
@@ -32,7 +32,7 @@ public class SquareRoot {
                 root += incr;
             }
             root -= incr;
-            incr /= 10;
+            incr /=10;
         }
         return root;
     }
