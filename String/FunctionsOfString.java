@@ -22,5 +22,8 @@ public class FunctionsOfString {
 
         //reverse String
         System.out.println(se.concat(" DM"));
+
+        char ch1=se.charAt(0);
+        System.out.println(ch1);
     }
 }
