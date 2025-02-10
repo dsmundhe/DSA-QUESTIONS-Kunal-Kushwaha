@@ -3,8 +3,7 @@ import java.util.ArrayList;
 public class DiceRollWithTargetSum {
     public static void main(String[] args) {
         // fun("", 4);
-        System.out.println(funRet("", 4));
-        ;
+        System.out.println(funRet("", 20));
     }
 
     static void fun(String str, int target) {
