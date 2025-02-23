@@ -1,39 +1,35 @@
+class Animal {
+  String name;
+  String type;
+  String movement;
 
-//Class 
-class Engineer {
-    String name;
-    int age;
-    int roll;
-    int regNo;
+  void printDetails() {
+    System.out.println("Name : " + this.name);
+    System.out.println("Type : " + this.type);
+    System.out.println("Movement : " + this.movement);
+  }
 
-    public void printInfo() {
-        System.out.println("Name : " + name);
-        System.out.println("Age : " + age);
-        System.out.println("Roll No : " + roll);
-        System.out.println("Registration No : " + regNo);
-    }
+  Animal(String name, String type, String movement) {
+    this.name = name;
+    this.type = type;
+    this.movement = movement;
+  }
+
+  Animal() {
+
+  }
 }
 
 public class Student {
-    public static void main(String[] args) {
 
-        // Object creation
-        Engineer e1 = new Engineer();
-        e1.name = "Dipak Samadhan Mundhe";
-        e1.age = 22;
-        e1.roll = 39;
-        e1.regNo = 22070707;
+  public static void main(String[] args) {
+    Animal a1 = new Animal();
+    a1.name = "Dog";
+    a1.type = "Pet";
+    a1.movement = "Run Walk Sprint";
+    a1.printDetails();
+    Animal a2 = new Animal("Tiger", "Wild", "Run Walk Sprint");
+    a2.printDetails();
 
-        System.out.println("Student 1 ");
-        e1.printInfo();
-
-        Engineer e2 = new Engineer();
-        e2.name = "Nitin Mundhe";
-        e2.age = 17;
-        e2.roll = 20;
-        e2.regNo = 101010;
-        System.out.println("Stuendt 2");
-        e2.printInfo();
-    }
-
+  }
 }
