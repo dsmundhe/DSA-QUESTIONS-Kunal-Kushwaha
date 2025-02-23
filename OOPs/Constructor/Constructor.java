@@ -1,31 +1,32 @@
+class Student {
 
-class Animal {
-    String name;
-    String color;
-    int weight;
-
-    // Parametric Constructor
-    Animal(String name, String color, int weight) {
-        this.name = name;
-        this.color = color;
-        this.weight = weight;
+    // default constructor
+    Student() {
+        System.out.println("Hello What's up!");
     }
 
-    public void printInfo() {
-        System.out.println("Name : " + name);
-        System.out.println("Color : " + color);
-        System.out.println("Weight : " + weight);
+    // parametric coustructor
+    Student(int a, int b) {
+        System.out.println("Sum : " + (a + b));
+    }
+
+    void printDetails() {
+        System.out.println("Hello I'm Printing........");
+    }
+
+    // copy constructor
+    Student(Student s1) {
+        s1.printDetails();
     }
 
 }
 
 public class Constructor {
+
     public static void main(String[] args) {
 
-        Animal dog = new Animal("Dog", "Black", 45);
-        Animal tiger = new Animal("Tiger", "Yellow & Black ", 210);
-        dog.printInfo();
-        tiger.printInfo();
-
+        Student s1 = new Student();
+        Student s2 = new Student(10, 20);
+        Student s3 = new Student(s2);
     }
 }
