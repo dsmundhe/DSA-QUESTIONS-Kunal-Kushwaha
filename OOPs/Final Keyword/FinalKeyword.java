@@ -6,9 +6,9 @@ public class FinalKeyword {
         // those variables are assign with final keyword those can not be reassign
         // a=20;
 
-        System.out.println(a);
+        System.out.println(a); // a=50
         fun(a);
-        System.out.println(a);
+        System.out.println(a); // a=50
     }
 
     final static void fun(int a) {
