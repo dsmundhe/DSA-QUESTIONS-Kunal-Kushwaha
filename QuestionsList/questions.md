@@ -93,7 +93,7 @@ Given an integer array nums, return the largest perimeter of a triangle with a n
 ---
 
 # String
-### 7.Valid Parentheses
+### 1.Valid Parentheses
 
 **Problem Link:** [https://leetcode.com/problems/valid-parentheses/description/](https://leetcode.com/problems/valid-parentheses/description/)
 
