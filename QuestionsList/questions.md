@@ -89,3 +89,12 @@ Your task is to solve it in O(log(n)) time complexity.
 #### Problem Description
 
 Given an integer array nums, return the largest perimeter of a triangle with a non-zero area, formed from three of these lengths. If it is impossible to form any triangle of a non-zero area, return 0.
+
+---
+### 7.Valid Parentheses
+
+**Problem Link:** [https://leetcode.com/problems/valid-parentheses/description/](https://leetcode.com/problems/valid-parentheses/description/)
+
+#### Problem Description
+
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
