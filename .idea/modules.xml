@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BinearySearch/BinearySearch.iml" filepath="$PROJECT_DIR$/BinearySearch/BinearySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA Questions.iml" filepath="$PROJECT_DIR$/DSA Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode Ques/LeetCode Ques.iml" filepath="$PROJECT_DIR$/LeetCode Ques/LeetCode Ques.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPs/OOPs.iml" filepath="$PROJECT_DIR$/OOPs/OOPs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+    </modules>
+  </component>
+</project>
